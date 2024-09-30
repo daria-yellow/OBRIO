@@ -21,7 +21,7 @@ export default function StepPage({ stepData }: StepPageProps) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const flowData = getFlowDataByName('flowFancy');
+  const flowData = getFlowDataByName('flowFancy')?.steps;
 
   if (!flowData) {
     return {
