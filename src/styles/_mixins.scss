@@ -1,0 +1,7 @@
+@import 'vars';
+
+@mixin for-desktop-down {
+  @media (max-width: $lg) {
+    @content;
+  }
+}

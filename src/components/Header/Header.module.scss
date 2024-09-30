@@ -1,0 +1,26 @@
+@import '@styles/mixins';
+
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+
+  img {
+    cursor: pointer;
+    z-index: 10;
+  }
+}
+
+.navBack {
+  position: absolute;
+  left: 20%;
+  top: 18px;
+
+  @include for-desktop-down {
+    left: 20px;
+  }
+}

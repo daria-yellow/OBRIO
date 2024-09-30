@@ -1,0 +1,23 @@
+@import '@styles/vars';
+
+.box {
+  padding-bottom: 20px;
+  max-width: 330px;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 30px;
+    color: $white;
+  }
+}
+
+.subQuestion {
+  color: $white;
+  margin-bottom: 30px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

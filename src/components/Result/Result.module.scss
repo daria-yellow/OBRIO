@@ -1,0 +1,27 @@
+.box {
+  max-width: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.answer {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.animation {
+  position: absolute;
+  top: -80px;
+  left: calc(50% - 100px);
+  width: 200px;
+}
